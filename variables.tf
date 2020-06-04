@@ -17,3 +17,9 @@ variable "name" {
   description = "name to pass to Name tag"
   default = "Provisioned by Terraform"
 }
+
+
+variable "role_arn" {
+  description = "name to pass to Name tag"
+  default = "andre-ec2-deploy"
+}
